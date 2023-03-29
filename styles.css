@@ -85,12 +85,12 @@ body {
 
 .minutero {
   border: solid 2px rgb(20, 10, 10);
-  transform: translate(80%, -4900%);
+  transform: translate(80%, -3300%);
   width: 150px;
   height: 0px;
 
   animation-name: minutero;
-  animation-duration: 25s;
+  animation-duration: 30s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
   animation-direction: linear;
@@ -98,18 +98,18 @@ body {
 
 @keyframes minutero {
   0% {
-    transform: translate(80%, -4900%) rotate(-480deg);
+    transform: translate(80%, -3300%) rotate(-480deg);
   }
 }
 
 .segundero {
   border: solid 1px rgb(199, 12, 12);
-  transform: translate(140%, -4900%);
+  transform: translate(145%, -6700%);
   width: 100px;
   height: 0px;
 
   animation-name: segundero;
-  animation-duration: 10s;
+  animation-duration: 15s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
   animation-direction: normal;
@@ -117,6 +117,6 @@ body {
 
 @keyframes segundero {
   0% {
-    transform: translate(140%, -4900%) rotate(-480deg);
+    transform: translate(145%, -6700%) rotate(-480deg);
   }
 }
